@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"><!--la etiqueta meta proporciona informacion del documento a los programas que analizen la pagina*/-->
+        <title>My Pagina Web</title><!--es el titulo que saldra en la pestaña del navegador-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--mejora la presentacion de las paginas web en celulares y pantallas de alta densidad-->
+        <link rel="stylesheet" href="estilo.ccs"><!--hace referencia a otro documento, rel indica que se esta haciendo referencia a una hoja de estilo CSS-->
+        <!--href indica el nombre y la ruta-->
+
+    </head>
+    <body>
+        <p class="xxx">hola &lt;</p> <!--si se quiere escribir el simbolo < en una etiqueta toca escribirlo de esta forma: &lt;-->
+        <!--los nombres o atributos de los elementos se pueden escribir tanto en minusculas(recomendado) como en mayusculas  class="xxx"-->
+
+        <p>&#x3b1; &#x3b2; &#x3c0;</p><!--las entidades numéricas expresadas en hexadecimal se pueden escribir en minúsculas como mayusculas-->
+        <!--las etiquetas vacias de HTML son: <area>, <base>, <br>, <col>, <embed>, <hr>, <img>, <input>, <link>, <meta>, <param>, <source>, <track> y <wbr>.-->
+        <!--el elemento <a> (link) no puede contener otros elementos <a>-->
+        <a href="https://www.google.com">google</a>
+        <!--el elemento <button> no puede contener elementos <button>,<fieldset>,<form>,<input>,<label>,<select> o <textarea>-->
+        <!--el elemento <form> no puede contener elementos <form>-->
+        <!--el elemento <label> no puede contener elementos <label>-->
+        <!--los atributos boleanes (los que solo pueden tener un valor, pueden no tener un valor asignado y pero se interpreta que tienen ese valor asignado)-->
+        <ol reversed>
+            <li>AAA</li>
+            <li>BBB</li>
+        </ol>
+        <ol reversed="reversed">
+            <li>AAA</li>
+            <li>BBB</li>
+        </ol>
+        <ol reversed="">
+            <li>AAA</li>
+            <li>BBB</li>
+        </ol>
+        
+        <!--el valor de un atributo id NO se puede repetir en un documento ejemplo: id="xxx", solo puede haber un "xxx" en el documento-->
+        
+    </body>
+</html>
+
